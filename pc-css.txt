@@ -1,0 +1,54 @@
+style.css:
+=========
+
+ul.block-brands__list {
+    margin-top: 40px !important;
+}
+
+.block.faq_heading_new.pb-3.ml-5 {
+    margin-left: 0px !important;
+    padding-bottom: 28px !important;
+}
+
+.ban_img img {
+    max-height: 85vh !important;
+}
+
+.ban_text p {
+    line-height: 35px !important;
+    font-size: 20px !important;
+    font: unset !important;
+}
+
+.subscribe-form button {
+    padding: 15px 20px !important;
+}
+
+
+style1.css:
+==========
+
+@media only screen and (max-width: 991px){
+.ban_text {
+    width: 80% !important;
+}
+.offset-md-3 {
+    margin-left: 10% !important;
+}
+h2.font-weight-light {
+    text-align: start !important;
+}
+.ban_text strong {
+    font-size: 24px !important;
+}
+.ban_text strong span {
+    font-size: 24px !important;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.ban_img img {
+    min-height: 400px !important;
+    object-fit: cover !important;
+}
+}
